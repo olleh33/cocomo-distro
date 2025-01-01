@@ -1,0 +1,21 @@
+{
+	"$schema": "file:///D:/helios/cocomo/distro/schemas/ServerMetaSchema.schema.json",
+	"meta": {
+	  "version": "1.0.0",
+	  "name": "cocomo (Minecraft 1.20.1)",
+	  "description": "cocomo Running Minecraft 1.20.1 (Forge v47.3.22)",
+	  "icon": "https://raw.githubusercontent.com/olleh33/cocomo-distro/main/serverIMG.jpg",
+	  "address": "cocomo.o-r.kr",
+	  "discord": {
+		"shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+		"largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+		"largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+	  },
+	  "mainServer": true,
+	  "autoconnect": true
+	},
+	"fabric": {
+	  "version": "0.16.9"
+	},
+	"untrackedFiles": []
+}
