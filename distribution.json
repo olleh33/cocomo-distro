@@ -9,10 +9,10 @@
   "servers": [
     {
       "id": "cocomo-1.20.1",
-      "name": "cocomo",
+      "name": "cocomo (Minecraft 1.20.1)",
       "description": "cocomo Running Minecraft 1.20.1 (Forge v47.3.22)",
       "icon": "https://raw.githubusercontent.com/olleh33/cocomo-distro/main/serverIMG.jpg",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "address": "cocomo.o-r.kr",
       "minecraftVersion": "1.20.1",
       "discord": {
@@ -116,6 +116,156 @@
           ]
         },
         {
+          "id": "dev.architectury.utils:architectury:9.2.14@jar",
+          "name": "Architectury",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 585207,
+            "url": "https://raw.githubusercontent.com/olleh33/cocomo-distro/main/servers/cocomo-1.20.1/fabricmods/required/architectury-9.2.14-fabric.jar",
+            "MD5": "2ae04e0dad60a390031ee341e0b2ab45"
+          }
+        },
+        {
+          "id": "org.betterx:bclib:3.0.14@jar",
+          "name": "BCLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2312835,
+            "url": "https://raw.githubusercontent.com/olleh33/cocomo-distro/main/servers/cocomo-1.20.1/fabricmods/required/bclib-3.0.14.jar",
+            "MD5": "f8ace3a498b889040dea6ff1ea85d288"
+          }
+        },
+        {
+          "id": "generated.fabricmod:better:end-4.0.11@jar",
+          "name": "Better",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 92544800,
+            "url": "https://raw.githubusercontent.com/olleh33/cocomo-distro/main/servers/cocomo-1.20.1/fabricmods/required/better-end-4.0.11.jar",
+            "MD5": "25be609cb7b9fc6e4e8782c6fdfea35b"
+          }
+        },
+        {
+          "id": "org.betterx:betternether:9.0.10@jar",
+          "name": "Better Nether",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 22981698,
+            "url": "https://raw.githubusercontent.com/olleh33/cocomo-distro/main/servers/cocomo-1.20.1/fabricmods/required/better-nether-9.0.10.jar",
+            "MD5": "ddc5a347daf531668da8ebe61bfc1c80"
+          }
+        },
+        {
+          "id": "com.ishland:c2me:0.2.0+alpha.11.13@jar",
+          "name": "Concurrent Chunk Management Engine",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1424654,
+            "url": "https://raw.githubusercontent.com/olleh33/cocomo-distro/main/servers/cocomo-1.20.1/fabricmods/required/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13.jar",
+            "MD5": "d11d3e2566c8ef1aee6fddd52d62932e"
+          }
+        },
+        {
+          "id": "dzwdz.chat_heads:chat_heads:0.13.7@jar",
+          "name": "Chat Heads",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 76261,
+            "url": "https://raw.githubusercontent.com/olleh33/cocomo-distro/main/servers/cocomo-1.20.1/fabricmods/required/chat_heads-0.13.7-fabric-1.20.jar",
+            "MD5": "b7f7ebeac2c1a02efa8c68003e546832"
+          }
+        },
+        {
+          "id": "org.popcraft:chunky:1.3.146@jar",
+          "name": "Chunky",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 344004,
+            "url": "https://raw.githubusercontent.com/olleh33/cocomo-distro/main/servers/cocomo-1.20.1/fabricmods/required/Chunky-1.3.146.jar",
+            "MD5": "b1e31424db96ae83246efd0390598e01"
+          }
+        },
+        {
+          "id": "com.blamejared:clumps:12.0.0.4@jar",
+          "name": "Clumps",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 21987,
+            "url": "https://raw.githubusercontent.com/olleh33/cocomo-distro/main/servers/cocomo-1.20.1/fabricmods/required/Clumps-fabric-1.20.1-12.0.0.4.jar",
+            "MD5": "9bd27566262e06642637b78a6bc4fe8c"
+          }
+        },
+        {
+          "id": "jp.axer.cocoainput.loader:cocoainput:4.3.0-EXPERIMENTAL@jar",
+          "name": "CocoaInput",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 210544,
+            "url": "https://raw.githubusercontent.com/olleh33/cocomo-distro/main/servers/cocomo-1.20.1/fabricmods/required/CocoaInput-1.20.1-fabric-4.3.0-EXPERIMENTAL.jar",
+            "MD5": "0ad2bd4e9c46e5747b1f3d55e758588f"
+          }
+        },
+        {
+          "id": "io.github.kvverti:colormatic:3.1.3@jar",
+          "name": "Colormatic",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 221006,
+            "url": "https://raw.githubusercontent.com/olleh33/cocomo-distro/main/servers/cocomo-1.20.1/fabricmods/required/colormatic-3.1.3+mc.1.20.1.jar",
+            "MD5": "f536f0e695ca4e11ed02a3322262cacf"
+          }
+        },
+        {
+          "id": "me.pepperbell:continuity:3.0.0+1.20.1@jar",
+          "name": "Continuity",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1016063,
+            "url": "https://raw.githubusercontent.com/olleh33/cocomo-distro/main/servers/cocomo-1.20.1/fabricmods/required/continuity-3.0.0+1.20.1.jar",
+            "MD5": "d180631d4db7588393f1d0c280593bc3"
+          }
+        },
+        {
+          "id": "foundationgames.enhancedblockentities:enhancedblockentities:0.9+1.20@jar",
+          "name": "Enhanced Block Entities",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 490690,
+            "url": "https://raw.githubusercontent.com/olleh33/cocomo-distro/main/servers/cocomo-1.20.1/fabricmods/required/enhancedblockentities-0.9+1.20.jar",
+            "MD5": "bfc7a62a2834f824bb426b73f383e0cb"
+          }
+        },
+        {
+          "id": "traben.entity_model_features:entity_model_features:2.4.1@jar",
+          "name": "Entity Model Features",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 444272,
+            "url": "https://raw.githubusercontent.com/olleh33/cocomo-distro/main/servers/cocomo-1.20.1/fabricmods/required/entity_model_features_fabric_1.20.1-2.4.1.jar",
+            "MD5": "9979ce497513b57a72175d80167a3fe5"
+          }
+        },
+        {
+          "id": "traben.entity_texture_features:entity_texture_features:6.2.9@jar",
+          "name": "Entity Texture Features",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 652400,
+            "url": "https://raw.githubusercontent.com/olleh33/cocomo-distro/main/servers/cocomo-1.20.1/fabricmods/required/entity_texture_features_fabric_1.20.1-6.2.9.jar",
+            "MD5": "69e81059aa60c49bc9c97918d4640edd"
+          }
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.7.2@jar",
+          "name": "EntityCulling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 68941,
+            "url": "https://raw.githubusercontent.com/olleh33/cocomo-distro/main/servers/cocomo-1.20.1/fabricmods/required/entityculling-fabric-1.7.2-mc1.20.1.jar",
+            "MD5": "8395d258523597f03e11f49b3068310b"
+          }
+        },
+        {
           "id": "generated.fabricmod:fabric-api:0.92.2+1.20.1@jar",
           "name": "Fabric API",
           "type": "FabricMod",
@@ -126,6 +276,36 @@
           }
         },
         {
+          "id": "fr.rakambda:fallingtree:4.3.4@jar",
+          "name": "FallingTree",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 420181,
+            "url": "https://raw.githubusercontent.com/olleh33/cocomo-distro/main/servers/cocomo-1.20.1/fabricmods/required/FallingTree-1.20.1-4.3.4.jar",
+            "MD5": "260303e64027dabb008d5b8ee4f39a7e"
+          }
+        },
+        {
+          "id": "generated.fabricmod:ferritecore:6.0.1@jar",
+          "name": "FerriteCore",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 588499,
+            "url": "https://raw.githubusercontent.com/olleh33/cocomo-distro/main/servers/cocomo-1.20.1/fabricmods/required/ferritecore-6.0.1-fabric.jar",
+            "MD5": "41037ac6cd7475dc9523b1df6d490737"
+          }
+        },
+        {
+          "id": "generated.fabricmod:immediatelyfast:1.3.3+1.20.4@jar",
+          "name": "ImmediatelyFast",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 242845,
+            "url": "https://raw.githubusercontent.com/olleh33/cocomo-distro/main/servers/cocomo-1.20.1/fabricmods/required/ImmediatelyFast-Fabric-1.3.3+1.20.4.jar",
+            "MD5": "9057e10b1a666b5684d8eeee0b734d41"
+          }
+        },
+        {
           "id": "link.infra:indium:1.0.34+mc1.20.1@jar",
           "name": "Indium",
           "type": "FabricMod",
@@ -133,6 +313,16 @@
             "size": 105359,
             "url": "https://raw.githubusercontent.com/olleh33/cocomo-distro/main/servers/cocomo-1.20.1/fabricmods/required/indium-1.0.34+mc1.20.1.jar",
             "MD5": "91f3ce08edec42ee8f6b45fd6ae0c8b3"
+          }
+        },
+        {
+          "id": "dlovin.inventoryhud:inventoryhud:3.4.26@jar",
+          "name": "Inventory HUD +",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 237573,
+            "url": "https://raw.githubusercontent.com/olleh33/cocomo-distro/main/servers/cocomo-1.20.1/fabricmods/required/inventoryhud.fabric.1.20.1-3.4.26.jar",
+            "MD5": "d5e3049c04f617683a5e0013902e2d8b"
           }
         },
         {
@@ -166,6 +356,86 @@
           }
         },
         {
+          "id": "me.steinborn.krypton.mod.shared:krypton:0.2.3@jar",
+          "name": "Krypton",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 185895,
+            "url": "https://raw.githubusercontent.com/olleh33/cocomo-distro/main/servers/cocomo-1.20.1/fabricmods/required/krypton-0.2.3.jar",
+            "MD5": "3bf353c1ab576b57c003109c079e2ec8"
+          }
+        },
+        {
+          "id": "dev.lambdaurora:lambdynlights:2.3.2+1.20.1@jar",
+          "name": "LambDynamicLights",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 573183,
+            "url": "https://raw.githubusercontent.com/olleh33/cocomo-distro/main/servers/cocomo-1.20.1/fabricmods/required/lambdynamiclights-2.3.2+1.20.1.jar",
+            "MD5": "9e931a5331bfe8cee677a413b8aea776"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods:lithium:0.11.2@jar",
+          "name": "Lithium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 645865,
+            "url": "https://raw.githubusercontent.com/olleh33/cocomo-distro/main/servers/cocomo-1.20.1/fabricmods/required/lithium-fabric-mc1.20.1-0.11.2.jar",
+            "MD5": "026ca4110d57f16f701b400ad5d2ca26"
+          }
+        },
+        {
+          "id": "ca.fxco:memoryleakfix:1.1.5@jar",
+          "name": "Memory Leak Fix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 49334,
+            "url": "https://raw.githubusercontent.com/olleh33/cocomo-distro/main/servers/cocomo-1.20.1/fabricmods/required/memoryleakfix-fabric-1.17+-1.1.5.jar",
+            "MD5": "a8461f89d267441752c95beb5448e940"
+          }
+        },
+        {
+          "id": "org.embeddedt:modernfix:5.20.0+mc1.20.1@jar",
+          "name": "ModernFix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 654305,
+            "url": "https://raw.githubusercontent.com/olleh33/cocomo-distro/main/servers/cocomo-1.20.1/fabricmods/required/modernfix-fabric-5.20.0+mc1.20.1.jar",
+            "MD5": "89d34c863adc021998cdea57e966142c"
+          }
+        },
+        {
+          "id": "com.terraformersmc:modmenu:7.2.2@jar",
+          "name": "Mod Menu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 721366,
+            "url": "https://raw.githubusercontent.com/olleh33/cocomo-distro/main/servers/cocomo-1.20.1/fabricmods/required/modmenu-7.2.2.jar",
+            "MD5": "2629511a2d3b141d9f2a24dc9685637e"
+          }
+        },
+        {
+          "id": "yalter.mousetweaks:mousetweaks:2.26@jar",
+          "name": "Mouse Tweaks",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 77943,
+            "url": "https://raw.githubusercontent.com/olleh33/cocomo-distro/main/servers/cocomo-1.20.1/fabricmods/required/MouseTweaks-fabric-mc1.20-2.26.jar",
+            "MD5": "3138c776d370c90603938eb54d17469a"
+          }
+        },
+        {
+          "id": "com.misterpemodder:shulkerboxtooltip:4.0.4+1.20.1@jar",
+          "name": "Shulker Box Tooltip",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1215695,
+            "url": "https://raw.githubusercontent.com/olleh33/cocomo-distro/main/servers/cocomo-1.20.1/fabricmods/required/shulkerboxtooltip-fabric-4.0.4+1.20.1.jar",
+            "MD5": "c344d20e5898c0fe21156c36a755c3cb"
+          }
+        },
+        {
           "id": "me.jellysquid.mods:sodium:0.5.11+mc1.20.1@jar",
           "name": "Sodium",
           "type": "FabricMod",
@@ -176,45 +446,55 @@
           }
         },
         {
-          "id": "de.maxhenkel:voicechat:1.20.1-2.5.23@jar",
+          "id": "de.maxhenkel:voicechat:1.20.1-2.5.27@jar",
           "name": "Simple Voice Chat",
           "type": "FabricMod",
           "artifact": {
-            "size": 8079110,
-            "url": "https://raw.githubusercontent.com/olleh33/cocomo-distro/main/servers/cocomo-1.20.1/fabricmods/required/voicechat-fabric-1.20.1-2.5.23.jar",
-            "MD5": "ba65224a933c89746e53bea2b7e48b08"
+            "size": 8092038,
+            "url": "https://raw.githubusercontent.com/olleh33/cocomo-distro/main/servers/cocomo-1.20.1/fabricmods/required/voicechat-fabric-1.20.1-2.5.27.jar",
+            "MD5": "7377aba366b2e256c687c7cb556d4a2b"
           }
         },
         {
-			"id": "options.txt",
-			"name": "options.txt",
-			"type": "File",
-			"artifact": {
-			  "size": 5136,
-			  "url": "https://raw.githubusercontent.com/olleh33/cocomo-distro/main/servers/cocomo-1.20.1/files/options.txt",
-			  "path": "options.txt"
-			}
-		},
-		{
-		"id": "servers.dat",
-		"name": "servers.dat",
-		"type": "File",
-		"artifact": {
-		  "size": 99,
-		  "url": "https://raw.githubusercontent.com/olleh33/cocomo-distro/main/servers/cocomo-1.20.1/files/servers.dat",
-		  "path": "servers.dat"
-		}
-		},
-		{
-		"id": "servers.dat_old",
-		"name": "servers.dat_old",
-		"type": "File",
-		"artifact": {
-		  "size": 81,
-		  "url": "https://raw.githubusercontent.com/olleh33/cocomo-distro/main/servers/cocomo-1.20.1/files/servers.dat_old",
-		  "path": "servers.dat_old"
-		}
-		}
+          "id": "dev.isxander.yacl3.platform:yet_another_config_lib_v3:3.6.2+1.20.1-fabric@jar",
+          "name": "YetAnotherConfigLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1106630,
+            "url": "https://raw.githubusercontent.com/olleh33/cocomo-distro/main/servers/cocomo-1.20.1/fabricmods/required/YetAnotherConfigLib-3.6.2+1.20.1-fabric.jar",
+            "MD5": "976f29a1a0754edf18c349cf644f9f78"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 5136,
+            "url": "https://raw.githubusercontent.com/olleh33/cocomo-distro/main/servers/cocomo-1.20.1/files/options.txt",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 99,
+            "url": "https://raw.githubusercontent.com/olleh33/cocomo-distro/main/servers/cocomo-1.20.1/files/servers.dat",
+            "path": "servers.dat"
+          }
+        },
+        {
+          "id": "servers.dat_old",
+          "name": "servers.dat_old",
+          "type": "File",
+          "artifact": {
+            "size": 81,
+            "url": "https://raw.githubusercontent.com/olleh33/cocomo-distro/main/servers/cocomo-1.20.1/files/servers.dat_old",
+            "path": "servers.dat_old"
+          }
+        }
       ]
     }
   ]
